@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    android:layout_width="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="&lt;quest>"
+        android:id="@+id/tvQuest"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:typeface="serif"
+        android:textSize="20dp"
+        android:textStyle="italic"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Решить задачу"
+        android:id="@+id/btStart"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Найти:"
+        android:id="@+id/textView"
+        android:layout_marginBottom="161dp"
+        android:layout_above="@+id/btStart"
+        android:layout_centerHorizontal="true"
+        android:typeface="serif"
+        android:textSize="20dp"
+        android:textStyle="italic"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Дано:"
+        android:id="@+id/textView2"
+        android:layout_below="@+id/tvQuest"
+        android:layout_centerHorizontal="true"
+        android:typeface="serif"
+        android:textSize="20dp"
+        android:textStyle="italic"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="New Text"
+        android:id="@+id/textView3"
+        android:layout_below="@+id/valuesView"
+        android:layout_centerHorizontal="true"
+        android:visibility="invisible"
+        android:typeface="serif"
+        android:textSize="20dp"
+        android:textStyle="italic"/>
+
+    <ListView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/searchingView"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_above="@+id/btStart"
+        android:layout_below="@+id/textView3"
+        android:visibility="visible" />
+
+    <ListView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/valuesView"
+        android:layout_above="@+id/textView"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/textView2" />
+
+</RelativeLayout>
