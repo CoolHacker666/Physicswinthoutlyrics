@@ -1,4 +1,10 @@
-# Physics winthout lyrics/Установка
+# Physics winthout lyrics
+
+# Важная информация
+
+Проект "Physics winthout lyrics" закрыт!
+
+# Установка
 
 -------------------------------------------
 а) Сервер приложения активен
