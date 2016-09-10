@@ -1,7 +1,5 @@
 # Physics winthout lyrics
 
-# Важная информация
-
 Проект "Physics winthout lyrics" закрыт!
 
 # Установка
